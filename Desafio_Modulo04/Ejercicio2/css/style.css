@@ -1,0 +1,75 @@
+/* VALORES PREDETERMINADOS DE LA CONSIGNA
+
+    Formulario:
+                width: 600px, height: 400px
+                padding: 20px, estar centrado
+    Div del form:
+                width: 50% y centrado
+    Campos del form:
+                width: 500px, height 50px
+
+    *Poner imagenes de fondo, uno para el body y otro para el div*
+*/
+
+/*
+    como la pagina no se adaptaba bien a mi pantalla con las medidas que pedia la consigna
+    intente hacer las medidas algo responsivas adaptandome al diseño que se pedia
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Mulish', 'sans-serif';
+}
+
+body {
+    background: url("../img/M4-desafio1-fondo.png");
+}
+
+div {
+    width: 50%; 
+    background: url("../img/M4-desafio1-fondo-form.png");
+    background-size: cover;
+    padding: 30px;
+    margin: auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32.64px;
+    color: #04146c;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    width: auto;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+form input, form button {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    font-size: 22.6px;
+    margin: 5px;
+}
+
+form input {
+    padding-left: 8px;
+    font-weight: 500;
+    color: #414166;
+}
+
+form button {
+    font-weight: 600;
+    color: #fff;
+    background-color: #15163d;
+}

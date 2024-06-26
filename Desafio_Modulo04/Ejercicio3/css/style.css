@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', 'sans-serif';
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 470px;
+    background: url("../img/M4-Desafío3_img-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Roboto-Slab';
+    font-size: 58.6px;
+    font-weight: 700;
+    color: #0a2ff1;
+}
+
+p {
+    font-weight: 500;
+    font-size: 25.3px;
+    color: #000000;
+}
+
+h2 {
+    font-size: 25.3px;
+    font-weight: 700;
+    color: #0a2ff1;
+}
+
+footer p {
+    color: #000000;
+    font-size: 24px;
+}
+
+#contact_button {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #0a2ff1;
+    cursor: pointer;
+}
+
+#contact_button a {
+    color: #fff;
+    width: 100%;
+}
+
+main img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    height: 20px;
+    width: 100%;
+    background-color: #15163d;
+}
