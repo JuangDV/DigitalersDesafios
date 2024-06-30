@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1</title>
+    <link rel="stylesheet" href="./css/navStyle.css">
+    <link rel="stylesheet" href="./css/contactoStyle.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html"><img src="./img/M5-logo-azul.svg" alt="Logo WH" id="logo"></a>
+        <a href="./index.html">Home</a>
+        <a href="./contacto.html" class="activo">Contacto</a>
+    </nav>
+    <main>
+        <p>¿Querés que nos contactemos con vos?</p>
+        <h1 class="normal_text">Dejanos tu consulta:</h1>
+        <form action="#" method="post">
+            <label class="normal_text" for="input_nombre">Nombre completo <span>*</span></label>
+            <input id="input_nombre" type="text" name="nombre" required>
+            <label class="normal_text" for="input_email">Email <span>*</span></label>
+            <input id="input_email" type="email" name="email" placeholder="Coloca tu Email: example@gmail.com" required>
+            <label class="normal_text" for="textarea_comentario">Comentario <span>*</span></label>
+            <textarea id="textarea_comentario" name="comentario" required></textarea>
+            <button class="form_button" id="form_button_reset" type="reset">Resetear</button>
+            <button class="form_button" id="form_button_submit" type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

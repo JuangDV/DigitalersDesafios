@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    margin-top: 24px;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #04146c;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 16px;
+    margin: 16px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+#logo {
+    width: 5%;
+}
+
+.activo {
+    font-weight: 700;
+}
