@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wdth,wght@0,75..125,700;1,75..125,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wdth@0,75..125;1,75..125&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { background-color: #899AEF; overflow-x: hidden; }
+
+.container {
+    margin-top: 15px;
+    min-height: 100vh;
+    overflow-y: hidden;
+    background-color: #edf7ff;
+}
+
+main {
+    max-width: 50%;
+    margin-left: 120px;
+}
+
+h1, h2, h3 { color: #0a2ff1; }
+h1 { 
+    font: 117.3px 'MuseoModerno', bold;  
+    line-height: 1; 
+    margin-top: 80px;
+}
+h2 {
+    font: 52px 'Asap', normal;
+    margin-bottom: 80px;
+}
+h3 {
+    font: 48px 'MuseoModerno', bold;
+    margin: 60px -10px 0 0;
+}
+
+ul, p {
+    color: #04146c;
+    font: 33.3px 'Asap';
+}
+
+p {
+    margin-top: 30px;
+}
+
+ul li { margin: 20px 0 0 30px; }
+
+h4 {
+    font: 198.6px 'MuseoModerno', bold;
+    color: #8a9af1;
+    margin: 120px 0 -25px 0;
+    line-height: 1;
+}
