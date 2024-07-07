@@ -13,11 +13,11 @@ main {
 }
 
 main div {
-    width: 50%;
+    width: fit-content;
     margin: auto;
     text-align: center;
     border: 1px solid #D8DEFF;
-    padding: 15px;
+    padding: 30px;
 }
 
 main div h1 {
@@ -28,12 +28,14 @@ main div h1 {
 }
 
 input, button {
+    max-width: 100%;
     width: 500px;
     height: 50px;
     margin: auto;
     margin-bottom: 10px;
     padding: 10px;
     display: block;
+    border: 1px solid #00000086;
 }
 
 input {
@@ -51,6 +53,7 @@ button {
 }
 
 hr {
+    max-width: 100%;
     width: 500px;
     margin: auto;
 }
