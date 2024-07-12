@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Transitions */
+
+.login-form input:hover { outline: 1px solid #ee82ee; transition: all .2s;}
+.login-form input:focus { outline: 1px solid #ee82ee; background-color: #d3d3d3;}
+#btn-ingreso:hover { outline: 1px solid #ee82ee; background-color: #ffffff; transition: all .6s; }
+#btn-ingreso:active { outline: 3px solid #8a2be2; transition: all .3s; }
+#btn-ingreso:hover::before { color: #fff; transition: all .4s; }
+#btn-ingreso:hover::after {
+    background-color: #ee82ee;;
+    width: 150%;
+    height: 150%;
+    left: -30px;
+    top: -8px;
+    right: 0;
+    bottom: 0;
+    transition: all .6s;
+}
+#btn-ingreso:active::before { text-shadow: 1px 1px 3px #8a2be2; transition: all 0s; }
+.login-app:hover {
+    outline: 1px solid #ee82ee;
+    transition: all .6s;
+}
+
+
+/* Styles */
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-app {
+    width: 640px;
+    height: 480px;
+    background: linear-gradient(90deg, #5A199B, #6f2ab4);
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 8px;
+    outline: 0 solid transparent;
+    transition: all .6s;
+}
+
+.login-app h1 {
+    margin: 20px 0 40px 0;
+}
+
+.login-form {
+    margin: auto;
+    height: 80%;
+    width: 80%;
+}
+
+.login-form input {
+    display: block;
+    padding: 20px 12px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #8a2be2;
+}
+
+.login-form label {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    margin: 12px auto;
+    color: #000000;
+    font-weight: 500;
+}
+
+.login-form label::after {
+    content: "*";
+    color: #710e0e;
+    margin-left: 4px;
+}
+
+#btn-ingreso {
+    display: block;
+    margin-left: auto;
+    padding: 8px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: end;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    position: relative;
+    background-color: #fff;
+    color: #ee82ee;
+    overflow: hidden;
+}
+
+#btn-ingreso::before {
+    content: "Ingresar";
+    position: absolute;
+    z-index: 1;
+    transition: all 1s;
+}
+#btn-ingreso::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 45%;
+    top: 40%;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+    transition: all .3s;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 769px) {
+    .login-app { width: 90% }
+}
+@media screen and (max-width: 481px) {
+    .login-app { width: 100% }
+}
